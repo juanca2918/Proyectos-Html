@@ -1,0 +1,11 @@
+nav { display:flex; justify-content:center; }
+body{background-color: black;margin: auto;}
+.cuerpo{background-color: white;border-radius: 5px;margin:auto;}
+.cabeza{background: url(../img/fondo-musica.jpg);border-radius: 5px;color: white;font-family: ArimaMadurai;}
+.responsive-img{width: 20rem;height: 20rem;}
+.contenido-principal{border-radius: 5px;}
+@font-face {
+  font-family: ArimaMadurai;
+  src: url(../fonts/ArimaMadurai-Regular.ttf);
+}
+.Columna-Principal-navegador{margin: auto;}

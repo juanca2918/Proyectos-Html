@@ -1,0 +1,9 @@
+.logo{border-radius: 10px 10px 10px 10px;}
+.fila-top{padding-top: 20px;}
+.fila-medio{padding-top: 20px;}
+.imagenes-2 img{height:500px;border-radius: 10px;width: 100%;}
+.imagenes-1 img{height: 200px;border-radius: 10px;}
+.imagenes-3 img{height: 150px;border-radius: 10px;}
+div[class*="imagenes"]{margin: 5px;}
+label{color: black;}
+.formulario{padding: 5px;}

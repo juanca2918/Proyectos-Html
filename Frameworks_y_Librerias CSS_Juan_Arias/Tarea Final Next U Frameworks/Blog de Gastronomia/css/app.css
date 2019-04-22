@@ -1,0 +1,15 @@
+.primera{background-color: rgb(255, 195, 0,0.7);border-radius: 10px;margin-bottom: 20px;margin: 1px;margin-right: 5px;max-height: 800px;}
+.imgrespon{width:100px;height:100px;float:right;}
+body{background: url(../img/fondo.jpg);}
+.button-group .stacked-for-small .button {
+-webkit-box-flex: 0;
+-webkit-flex: 0 0 auto;
+-ms-flex: 0 0 auto;
+flex: 0 0 auto;
+margin-bottom: 5px;
+margin-top: 5px;margin: 1px;}
+.segunda .first{background-color: rgb(255, 195, 0,0.7);border-radius: 10px;margin-left: 20px;margin: 1px;}
+.imgsegunda{max-width: 100%;}
+.parrafo1{text-align: center;justify-content: center;}
+.imgresp{max-width: 100px !important;}
+.segunda .second{background-color: rgb(255, 195, 0,0.7);border-radius: 10px;margin-top: 20px;margin: 1px;}
