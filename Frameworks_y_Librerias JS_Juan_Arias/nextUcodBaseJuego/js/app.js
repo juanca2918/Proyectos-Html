@@ -10,7 +10,7 @@ $(document).ready(function() {
   $(".btn-reinicio").on("click",function(){
       if (state) {
         ImgAleatorias();
-        ImgLiving();
+        ImgBehavior();
         $(this).html("Reiniciar");
         state=false;
     }else{
@@ -35,14 +35,17 @@ function ImgReset(){
 }
 
 //Funcion Draggable and Droopable
-function ImgLiving(){
-  $(".imgCol1").sortable();
-  $(".imgCol2").sortable();
-  $(".imgCol3").sortable();
-  $(".imgCol4").sortable();
-  $(".imgCol5").sortable();
-  $(".imgCol6").sortable();
-  $(".imgCol7").sortable();
+function ImgBehavior(){
+  /**$(".imgCol1").sortable({
+      items: "imgCol1,imgCol2"
+    });**/
+  $(".imgCol1").draggable();
+  $(".imgCol2").draggable();
+  $(".imgCol3").draggable();
+  $(".imgCol4").draggable();
+  $(".imgCol5").draggable();
+  $(".imgCol6").draggable();
+  $(".imgCol7").draggable();
 }
 //Funcion Agregar Imagenes al tablero del juego
 function ImgAleatorias() {
